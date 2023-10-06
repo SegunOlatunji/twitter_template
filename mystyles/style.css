@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+
+    height: fit-content;
+
+}
+.header{
+    background-color: black;
+    height: 5rem;
+    color: white;
+}
+.header h1{
+    padding-left: 50%;
+}
+
+.boxes{
+    height: 50rem;
+    border: 1px solid red;
+    padding: 200px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 2rem;
+}
+.box1{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: aqua;
+}
+.box2{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: aquamarine;
+}
+.box3{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: blue;
+}
+.box4{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: blueviolet;
+}
+.box5{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: brown;
+}
+.box6{
+    height: 2rem;
+    border: 1px solid blue;
+    height: 15rem;
+    width: 20rem;
+    background-color: black;
+}
+
+.shortlong{
+    height: 20rem;
+    border: 1px solid gold;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0px ;
+
+}
+.box7{
+    height: 15rem;
+    width: 20rem;
+    background-color: black;
+}
+.box8{
+    height: 15rem;
+    width: 75rem;
+    background-color: yellow;
+}
+.halfbox{
+    height: 20rem;
+    border: 1px solid gold;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-bottom:1rem ;
+
+}
+.halfbox1{
+    height: 15rem;
+    width: 50rem;
+    background-color: aqua;
+}
+.halfbox2{
+    height: 15rem;
+    width: 55rem;
+    background-color: aqua;
+}
+.footer{
+    height: 5rem;
+   
+}
+.foot{
+    background-color: black;
+    height: 5rem;
+    color: white;
+}
